@@ -1,0 +1,46 @@
+.btn{
+    text-decoration: none;
+    background-color: #ff5959;
+    color: white;
+    padding: 12px 40px;
+    margin: 90px 5px;
+border-radius: 5px;
+margin-left: -3px;
+    }
+.hero{
+    display: flex;
+    margin-top: 100px;
+}
+.hero1{
+    width: 50%;
+    
+    
+}
+.hero2{
+    width: 50%;
+    margin-left: 15%;
+}
+.hero2 img{
+    width: 90%;
+}
+h1{
+    font-size: 50px;
+}
+.left-border{
+    border-left:solid 5px #ff5959;
+    padding-left: 15px;
+   
+}
+.orange{
+    color: #ffad5a;
+    margin-top: -35px;
+}
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+p{
+    color: gray;
+    font-size: 18px;
+    padding: 10px 0;
+}

@@ -57,19 +57,71 @@ p{
 }
 .mission1{
 background-color: #eef6f7;
-margin-right: 20px;
+margin-right: 25px;
 border-radius: 30px;
 padding: 20px 30px;
 }
 .mission2{
     background-color: #ffefef;
-    margin-right: 20px;
+    margin-right: 25px;
     border-radius: 30px;
     padding: 20px 30px;
 }
 .mission3{
     background-color: #fff4d6;
-    margin-left: 20px;
+   
     border-radius: 30px;
     padding: 20px 30px;
+}
+.develop1{
+    width: 40%;
+    margin-left: 5%;
+}
+.develop2{
+    width: 60%;
+
+}
+.develop1 img{
+width: 85%;
+}
+.develop{
+    margin-top: 90px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 20%;
+}
+.global{
+    margin-top: 90px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 20%;
+}
+.global1{
+    width: 60%;
+}
+.global2{
+    width: 40%;
+    margin-left: 5%;
+}
+.global2 img{
+    width: 85%;
+}
+.footer{
+    background-color: #0b0d17;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.red{
+    color: #ff5959;
+}
+.white{
+    text-align: center;
+    color: white;
+}
+.footer-p{
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: -30px;
 }

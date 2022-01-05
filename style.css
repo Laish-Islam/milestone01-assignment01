@@ -44,3 +44,32 @@ p{
     font-size: 18px;
     padding: 10px 0;
 }
+
+
+.center{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.img{
+    width: 40%;
+}
+.mission1{
+background-color: #eef6f7;
+margin-right: 20px;
+border-radius: 30px;
+padding: 20px 30px;
+}
+.mission2{
+    background-color: #ffefef;
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+.mission3{
+    background-color: #fff4d6;
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 20px 30px;
+}

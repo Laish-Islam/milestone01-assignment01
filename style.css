@@ -27,13 +27,24 @@ h1{
     font-size: 50px;
 }
 .left-border{
-    border-left:solid 5px #ff5959;
     padding-left: 15px;
+    position: relative;
    
+}
+.left-border ::before{
+    content: "";
+    height: 80%;
+    width: 4px;
+    background: tomato;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    border-radius: 30%;
 }
 .orange{
     color: #ffad5a;
     margin-top: -35px;
+    
 }
 section{
     margin-left: 10%;
@@ -119,9 +130,127 @@ width: 85%;
 .white{
     text-align: center;
     color: white;
+    
 }
 .footer-p{
     font-weight: 100;
     font-size: 12px;
     margin-top: -30px;
 }
+
+
+
+
+
+.about-me{
+
+}
+.about-parent{
+    display: flex;
+}
+.about-left img{
+    width: 60%;
+}
+
+.top-row{
+    display: flex;
+}
+.bottom-row{
+    display: flex;
+    border-top: solid 1px #9de9f0;
+}
+
+.bottom-row img{
+width: 100%;
+float: right;
+margin-top: 7%;
+}
+.top-row img{
+    width: 90%;
+    margin-top: 12%;
+    
+}
+.left-left{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.about-left{
+    width: 50%;
+    
+}
+.about-right{
+    width: 50%;
+    position: relative;
+
+}
+.about-right ::after{
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: #9de9f0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.for-wdith{
+    width: 100%;
+}
+.formargin{
+    width: 100%;
+}
+.margin-right{
+    width: 100%;
+    margin-left: 8%;
+}
+.margin-left{
+    width: 100%;
+}
+
+.white{
+    font-family: 'Lobster Two', cursive;
+}
+.mango{
+    font-family: 'Spline Sans', sans-serif;
+}
+.orange{
+    font-family: 'Lobster Two', cursive;
+}
+p{
+    color: gray;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.center{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.develop2 h2{
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 28px;
+}
+.global1 h2{
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 28px;
+}
+.me{
+    font-size: 26px;
+    color: #ffad5a;
+    font-family: 'Lobster Two', cursive;
+}
+.tango{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.pango{
+margin-top: 80px;
+padding-bottom: 50px;
+}
+.btn3{
+    margin-top: 20px;
+}
+
